@@ -1,0 +1,27 @@
+ligego: http://github.com/lukaszlew/libego/tree/master
+
+Opcje przy kompilacji:
+
+	-DUSE_PLAYOUT_VIEW
+		Wlaczenie do UCT oceny na podstawie wykonanych playoutow.
+		Sluzy do znajdowania aktywnych miejsc na planszy i dla 
+		nich jest zwiekszany wspolczynnik eksploracji.
+
+	-DUSE_UCT_LOCALITY
+		Zwiekszenie wspolczynnika eksploracji dla pozycji 
+		pobliskich ostatnio wykonanych.
+
+	-DUSE_BEGINING_IN_PLAYOUT
+		Dla poczatkowych ruchow w playoutach gramy tak...
+
+	-DUSE_ATARI_IN_PLAYOUT
+		Reakcja na atari w playoutach...
+
+	-DUSE_LOCALITY_IN_PLAYOUT
+		Granie lokalnych ruchow w playoutach
+
+	-DUSE_LADDER_DETECTION
+		Wykrywanie 'drabinki' dla atari. W playoutach,
+		gdy gracz jest w atari jest sprawdzane czy 
+		mozna z niego uciec.
+
